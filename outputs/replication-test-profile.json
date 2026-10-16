@@ -1,0 +1,21 @@
+{
+  "enabled": false,
+  "direction": "source-to-target",
+  "source": {
+    "server": "192.168.3.48",
+    "database": "SentezLiveDev2025",
+    "companyCode": "012018",
+    "companyRecId": 7
+  },
+  "target": {
+    "server": "192.168.3.48",
+    "database": "SentezLiveDev2024",
+    "companyCode": "012018",
+    "companyRecId": 7
+  },
+  "recordTypes": "all-company-business-data",
+  "replicateDeletes": true,
+  "initialSync": null,
+  "status": "company-and-schema-verified-read-only",
+  "connectionFinding": "SQL login successful. Both databases: RecId 7, CompanyCode 012018, ADAMO MODA TEKSTİL A.Ş. Schema inspection completed 2026-10-15."
+}

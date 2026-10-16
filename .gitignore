@@ -1,0 +1,26 @@
+# Local credentials and runtime state
+**/profile.local.json
+**/desktop-settings.json
+**/review-queue.json
+**/transfers/
+**/*secret*
+
+# Database snapshots and potentially sensitive business data
+outputs/SentezSync/bank-snapshot.json
+outputs/SentezSync/bank-plan.json
+outputs/SentezSync/bank-protected-initial.json
+outputs/SentezSync/comparison-snapshot.json
+outputs/SentezSync/row-preview.json
+outputs/SentezSync/record-detail.json
+outputs/SentezSync/reports/
+outputs/SentezSync/history.jsonl
+
+# Build output and local tooling
+outputs/SentezSync/app/
+outputs/SentezSync/app-next/
+outputs/SentezSync/Desktop/bin/
+outputs/SentezSync/Desktop/obj/
+work/
+*.user
+*.suo
+*.tmp
